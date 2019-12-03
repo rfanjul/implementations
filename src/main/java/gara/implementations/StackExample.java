@@ -1,12 +1,12 @@
 package gara.implementations;
 
-public class Stack {
+public class StackExample {
 
   int[] arr;
   int top = -1;
   int capacity;
 
-  public Stack(final int capacity) {
+  public StackExample(final int capacity) {
     this.arr = new int[capacity];
     this.capacity = capacity;
   }

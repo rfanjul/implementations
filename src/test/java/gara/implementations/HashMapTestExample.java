@@ -1,12 +1,11 @@
 package gara.implementations;
 
-import gara.implementations.HashMapTest;
 import junit.framework.TestCase;
 
-public class HashMapTestTest extends TestCase {
+public class HashMapTestExample extends TestCase {
 
   public void test(){
-    HashMapTest<String, String> mapTest = new HashMapTest<>(4);
+    HashMapExample<String, String> mapTest = new HashMapExample<>(4);
 
     mapTest.put("one","1");
     mapTest.put("two","2");

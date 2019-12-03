@@ -1,12 +1,12 @@
 package gara.implementations;
 
-public class Queue {
+public class QueueExample {
 
   int[] arr;
   int front = -1;
   int rear = 0;
 
-  public Queue(final int size) {
+  public QueueExample(final int size) {
     arr = new int[size];
   }
 

@@ -1,13 +1,7 @@
 package gara.implementations;
 
 
-public class HashMapTest<K, V> {
-
-  public V get(final K key) {
-    int bucket = getHash(key) % getBucketSize();
-
-    return buckets[bucket].value;
-  }
+public class HashMapExample<K, V> {
 
   static class Entry<K, V> {
     final K key;
@@ -23,8 +17,14 @@ public class HashMapTest<K, V> {
 
   Entry<K, V>[] buckets;
 
-  public HashMapTest(int capacity) {
+  public HashMapExample(int capacity) {
     this.buckets = new Entry[capacity];
+  }
+
+  public V get(final K key) {
+    int bucket = getHash(key) % getBucketSize();
+
+    return buckets[bucket].value;
   }
 
   public void put(K key, V value) {

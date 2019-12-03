@@ -1,6 +1,6 @@
 package gara.implementations;
 
-public class LinkedList {
+public class LinkedListExample {
 
   Node head;
 
@@ -13,7 +13,7 @@ public class LinkedList {
     }
   }
 
-  public LinkedList insert(int data){
+  public LinkedListExample insert(int data){
 
     if ( head == null ) {
       head = new Node(data);
